@@ -18,6 +18,7 @@ class MohitJenkinsApplicationTests {
 	@Test
 	public void contextLoads() {
 		logger.info("Test case executing...........");
+		logger.info("test case executing 2 log statement" );
 		assertEquals(true,true);
 	}
 
