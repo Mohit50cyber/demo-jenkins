@@ -14,7 +14,7 @@ public class MohitJenkinsApplication {
 	public static Logger logger= LoggerFactory.getLogger(SpringApplication.class);
 
 	@PostConstruct
-	public void init(){
+	public void intt(){
 		logger.info("App started..........");
 	}
 
