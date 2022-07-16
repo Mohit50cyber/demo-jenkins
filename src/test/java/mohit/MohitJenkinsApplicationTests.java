@@ -14,7 +14,7 @@ import static org.junit.Assert.assertEquals;
 @SpringBootTest
 class MohitJenkinsApplicationTests {
 
-	public static Logger logger= LoggerFactory.getLogger(SpringApplication.class);
+	public static Logger logger= LoggerFactory.getLogger(MohitJenkinsApplicationTests.class);
 	@Test
 	public void contextLoads() {
 		logger.info("Test case executing...........");

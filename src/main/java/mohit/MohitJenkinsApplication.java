@@ -11,7 +11,7 @@ import javax.annotation.PostConstruct;
 public class MohitJenkinsApplication {
 
 
-	public static Logger logger= LoggerFactory.getLogger(SpringApplication.class);
+	public static Logger logger= LoggerFactory.getLogger(MohitJenkinsApplication.class);
 
 	@PostConstruct
 	public void intt(){
